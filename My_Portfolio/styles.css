@@ -1,0 +1,267 @@
+/* Apply a background image to the body */
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff; /* Ensures text is visible on top of the background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section Styles */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a translucent black overlay */
+}
+
+/* Navbar container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  position: relative;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/* Navbar links styles */
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.nav-links li {
+  position: relative; 
+  text-align: right;
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  font-size: 16px;
+  text-align: right;
+}
+
+.nav-links li:hover a {
+  background-color: #575757;
+}
+
+
+
+/* About Section Styles */
+#about {
+  text-align: center;
+  padding: 40px;
+  background-image: url(https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg);
+  margin-top: 20px;
+}
+
+.image-container img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: 20px 0;
+}
+
+.buttons .btn {
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.buttons .btn:hover {
+  background-color: #575757;
+}
+
+/* Skills Section */
+.skills {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.skill-item {
+  margin: 15px 0;
+}
+
+.progress {
+  background-color: #220303;
+  border-radius: 5px;
+  height: 10px;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.progress-in {
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+ /* Basic styling for the contact section */
+#contact {
+  padding: 20px;
+ background-image: url(https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg);
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+ 
+}
+
+/* Styling for form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #4CAF50;
+  outline: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#confirmation-message {
+  margin-top: 20px;
+  background-color: #3e14e4;
+  border: 1px solid #4CAF50;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+
+/* Footer Section */
+ffooter {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+  padding: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p:first-child {
+  margin-bottom: 20px;
+}
+
+footer p:last-child {
+  margin-top: 10px;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .burger {
+    display: block;
+  }
+  .burger .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+
+  footer a {
+    padding: 0 5px;
+}
+}
+}
