@@ -18,9 +18,11 @@ header {
 /* Navbar container */
 .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   text-align: right;
   position: relative;
+  align-items: flex-end;
+  
 }
 
 h1 {
