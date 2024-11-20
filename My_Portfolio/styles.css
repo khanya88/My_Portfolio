@@ -3,9 +3,10 @@ body {
   font-family: Arial, sans-serif;
   background: url('https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #fff; /* Ensures text is visible on top of the background */
+  color: #110101; /* Ensures text is visible on top of the background */
   margin: 0;
   padding: 0;
+font-size: 20px;
 }
 
 /* Header Section Styles */
@@ -28,8 +29,10 @@ header {
 h1 {
   font-size: 3em;
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   text-transform: uppercase;
+  color: #ccc;
+  
 }
 
 /* Navbar links styles */
