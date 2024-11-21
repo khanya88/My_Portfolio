@@ -206,40 +206,45 @@ button:hover {
 
 
 /* Footer Section */
+/* Footer Section */
 .footer {
   background-color: #f1f1f1;
   padding: 20px;
   margin-top: 2rem;
   border-top: 2px solid var(--secondary);
   position: relative;
-  overflow: hidden;
   text-align: center;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Center vertically */
+  align-items: center;  /* Center horizontally */
+  min-height: 200px; /* Ensure footer has a minimum height */
 }
 
 .footer-content {
   max-width: 1200px;
-  margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;  /* Center horizontally */
   gap: 2rem;
   position: relative;
-  z-index: 2;
-  align-items: center;
 }
 
 .footer-section {
   flex: 1;
-  width: auto;
-  max-width: none;
   padding: 1.5rem;
   background: rgba(255,255,255,0.02);
   border-radius: 10px;
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  width: auto;
+  max-width: 400px;  /* Limit width of each footer section */
 }
 
+/* Footer Section heading */
 .footer-section h4 {
   color: var(--secondary);
   margin-bottom: 1.5rem;
@@ -261,6 +266,7 @@ button:hover {
 
 .footer-section ul {
   list-style: none;
+  padding: 0;
 }
 
 .footer-section ul li {
@@ -328,49 +334,7 @@ button:hover {
   color: rgba(255,255,255,0.7);
 }
 
-@keyframes gradient {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(-30px, 20px); }
-  100% { transform: translate(0, 0); }
-}
-
-
-
-.contact-section {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 1rem;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid var(--secondary);
-  border-radius: 5px;
-  color: var(--light);
-}
-
-.contact-form button {
-  padding: 1rem;
-  background: var(--secondary);
-  color: var(--light);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.contact-form button:hover {
-  background: var(--primary);
-}
-
+/* Responsive layout */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
@@ -381,6 +345,5 @@ button:hover {
     width: 100%;
     max-width: 300px;
   }
-}
 }
 
