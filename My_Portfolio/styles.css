@@ -242,25 +242,7 @@ footer {
   }
 
 
-.quick-links .list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .quick-links .list li {
-    margin: 10px 0;
-  }
-  
-  .quick-links .list li a {
-    text-decoration: none;
-    color: #0f0f0f;
-  }
-  
-  .quick-links .list li a:hover {
-    color: #111111;
-    text-decoration: underline;
-  }
-  
+
   .social-links a {
     text-decoration: none;
     font-size: 1.5rem;
