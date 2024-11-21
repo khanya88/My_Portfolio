@@ -206,144 +206,95 @@ button:hover {
 
 
 /* Footer Section */
-/* Footer Section */
-.footer {
-  background-color: #f1f1f1;
-  padding: 20px;
-  margin-top: 2rem;
-  border-top: 2px solid var(--secondary);
-  position: relative;
-  text-align: center;
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  /* Center vertically */
-  align-items: center;  /* Center horizontally */
-  min-height: 200px; /* Ensure footer has a minimum height */
-}
-
-.footer-content {
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;  /* Center horizontally */
-  gap: 2rem;
-  position: relative;
-}
-
-.footer-section {
-  flex: 1;
-  padding: 1.5rem;
-  background: rgba(255,255,255,0.02);
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: center;
-  width: auto;
-  max-width: 400px;  /* Limit width of each footer section */
-}
-
-/* Footer Section heading */
-.footer-section h4 {
-  color: var(--secondary);
-  margin-bottom: 1.5rem;
-  font-size: 1.2rem;
-  position: relative;
-  padding-bottom: 0.5rem;
-}
-
-.footer-section h4::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 2px;
-  background: var(--secondary);
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 1.5rem;
-  transition: transform 0.2s ease;
-  text-align: center;
-}
-
-.footer-section ul li:hover {
-  transform: translateY(-5px);
-}
-
-.footer-section ul li a {
-  color: var(--light);
-  text-decoration: none;
-  transition: color 0.3s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.footer-section ul li a:hover {
-  color: var(--secondary);
-}
-
-.social-links {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  margin-top: 1.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.social-links a {
-  color: var(--light);
-  font-size: 1.5rem;
-  transition: all 0.3s ease;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.05);
-}
-
-.social-links a:hover {
-  color: var(--secondary);
-  background: rgba(0,159,253,0.1);
-  transform: translateY(-3px) rotate(8deg);
-}
-
-.footer-bottom {
-  text-align: center;
-  padding-top: 2rem;
-  margin-top: 3rem;
-  border-top: 1px solid rgba(255,255,255,0.1);
-  position: relative;
-}
-
-.footer-bottom p {
-  font-size: 0.9rem;
-  color: rgba(255,255,255,0.7);
-}
-
-/* Responsive layout */
-@media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   .footer-section {
-    width: 100%;
-    max-width: 300px;
+    width: 45%;
+    margin-bottom: 20px;
   }
-}
+  
+  .footer-section h4 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li i {
+    margin-right: 10px;
+  }
 
+
+.quick-links .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quick-links .list li {
+    margin: 10px 0;
+  }
+  
+  .quick-links .list li a {
+    text-decoration: none;
+    color: #0f0f0f;
+  }
+  
+  .quick-links .list li a:hover {
+    color: #111111;
+    text-decoration: underline;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #fff;
+  }
+  
+  .social-links a:hover {
+    color: #ff6347;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer-bottom p {
+    font-size: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .footer-bottom {
+      margin-top: 20px;
+    }
+  }
+  
