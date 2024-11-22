@@ -73,9 +73,17 @@ h1 {
 }
 
 .image-container img {
-  border-radius: 50%;
-  border: 5px solid #fff;
-  margin: 20px 0;
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid #fff; /* Adds a white border around the image */
+    margin: 20px 0; /* Adds space above and below the image */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+}
+
+
+/* Add hover effect for the image */
+.image-container img:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow around the image */
 }
 
 .buttons .btn {
