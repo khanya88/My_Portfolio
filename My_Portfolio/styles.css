@@ -116,6 +116,72 @@ h1 {
   border-radius: 5px;
 }
 
+* Projects Section */
+#projects {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  /* Styling for the 'Projects' header */
+  #projects h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase; /* Optional: capitalizes the text */
+    letter-spacing: 2px; /* Adds space between letters for a modern look */
+    text-align: center; /* Ensures the heading is centered */
+    grid-column: span 2;
+  }
+  
+  /* Project Card Styling */
+  .project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Project Title Styling */
+  .project h3 {
+    font-size: 1.8rem;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+  }
+  
+  /* Project Description Styling */
+  .project p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Link Styling */
+  .project a {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .project a:hover {
+    color: #0056b3;
+  }
+  
+  /* Hover effect for project cards */
+  .project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+
 /* Contact Section */
 #contact {
  /* Basic styling for the contact section */
