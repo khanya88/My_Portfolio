@@ -1,12 +1,12 @@
 /* Apply a background image to the body */
 body {
-  font-family: Arial, sans-serif;
-  background: url('https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #110101; /* Ensures text is visible on top of the background */
-  margin: 0;
-  padding: 0;
-font-size: 17px;
+    background-image: url(https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg);
+    background-position: Cover;
+    font-family: Arial, sans-serif;
+    color: #110101; /* Ensures text is visible on top of the background */
+    margin: 0;
+    padding: 0;
+  font-size: 17px;
 }
 
 /* Header Section Styles */
@@ -96,6 +96,7 @@ h1 {
 .skills {
   margin: 50px auto;
   text-align: center;
+  background-image: url(https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg);
 }
 
 .skill-item {
