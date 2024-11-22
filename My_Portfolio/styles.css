@@ -1,12 +1,12 @@
 /* Apply a background image to the body */
 body {
-    background-image: url(https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg);
-    background-position: Cover;
-    font-family: Arial, sans-serif;
-    color: #110101; /* Ensures text is visible on top of the background */
-    margin: 0;
-    padding: 0;
-  font-size: 17px;
+  background-image: url(https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg);
+  background-position: Cover;
+  font-family: Arial, sans-serif;
+  color: #110101; /* Ensures text is visible on top of the background */
+  margin: 0;
+  padding: 0;
+font-size: 17px;
 }
 
 /* Header Section Styles */
@@ -73,18 +73,19 @@ h1 {
 }
 
 .image-container img {
-    border-radius: 50%; /* Makes the image circular */
-    border: 5px solid #fff; /* Adds a white border around the image */
-    margin: 20px 0; /* Adds space above and below the image */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+  border-radius: 50%; /* Makes the image circular */
+  border: 5px solid #fff; /* Adds a white border around the image */
+  margin: 20px 0; /* Adds space above and below the image */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
 }
 
 
 /* Add hover effect for the image */
 .image-container img:hover {
-    transform: scale(1.1); /* Slightly enlarges the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow around the image */
+  transform: scale(1.1); /* Slightly enlarges the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow around the image */
 }
+
 
 .buttons .btn {
   text-decoration: none;
@@ -107,6 +108,10 @@ h1 {
   background-image: url(https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg);
 }
 
+.skills h2{
+text-align: center;
+}
+
 .skill-item {
   margin: 15px 0;
 }
@@ -124,127 +129,130 @@ h1 {
   height: 100%;
   border-radius: 5px;
 }
-
-* Projects Section */
-#projects {
-    background-color: #f4f4f4;
-    padding: 40px 20px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  /* Gallery section styling */
+/* Gallery section styling */
 #gallery {
-  padding: 90px;
-  background-color: #f0f0f0;
-  text-align: center;  /* Center content horizontally */
+padding: 90px;
+background-color: #f0f0f0;
+text-align: center;  /* Center content horizontally */
 }
 
 .slideshow-container {
-  position: relative;
-  max-width: 100%;
-  margin: auto;  /* Center slideshow container */
-  display: flex;  /* Use flexbox to center content inside */
-  justify-content: center;  /* Center content horizontally */
-  align-items: center;  /* Center content vertically */
+position: relative;
+max-width: 100%;
+margin: auto;  /* Center slideshow container */
+display: flex;  /* Use flexbox to center content inside */
+justify-content: center;  /* Center content horizontally */
+align-items: center;  /* Center content vertically */
 }
 
 .mySlides {
-  display: none; /* Hide all images by default */
-  position: relative;  /* Position images absolutely to overlap */
+display: none; /* Hide all images by default */
+position: relative;  /* Position images absolutely to overlap */
 }
 
 .mySlides img {
-  width: 395px; /* Make images responsive */
-  max-width: 600px; /* Set a maximum width for images */
-  height: auto;  /* Maintain aspect ratio */
-  border-radius: 10px;
-  transition: transform 0.5s ease;
-  object-fit: cover;  /* Ensure images cover the container without distortion */
+width: 395px; /* Make images responsive */
+max-width: 600px; /* Set a maximum width for images */
+height: auto;  /* Maintain aspect ratio */
+border-radius: 10px;
+transition: transform 0.5s ease;
+object-fit: cover;  /* Ensure images cover the container without distortion */
 }
 
 /* Navigation dots */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
 }
 
 .dot:hover {
-  background-color: #717171;
+background-color: #717171;
 }
 
 /* Active dot */
 .active {
-  background-color: #717171;
+background-color: #717171;
 }
-  /* Styling for the 'Projects' header */
-  #projects h2 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 30px;
-    font-weight: bold;
-    text-transform: uppercase; /* Optional: capitalizes the text */
-    letter-spacing: 2px; /* Adds space between letters for a modern look */
-    text-align: center; /* Ensures the heading is centered */
-    grid-column: span 2;
-  }
-  
-  /* Project Card Styling */
-  .project {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  /* Project Title Styling */
-  .project h3 {
-    font-size: 1.8rem;
-    color: #2a2a2a;
-    margin-bottom: 10px;
-  }
-  
-  /* Project Description Styling */
-  .project p {
-    font-size: 1.1rem;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  /* Link Styling */
-  .project a {
-    font-size: 1rem;
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .project a:hover {
-    color: #0056b3;
-  }
-  
-  /* Hover effect for project cards */
-  .project:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
+
+
+
+
+/* Projects Section */
+#projects {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Styling for the 'Projects' header */
+#projects h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase; /* Optional: capitalizes the text */
+  letter-spacing: 2px; /* Adds space between letters for a modern look */
+  text-align: center; /* Ensures the heading is centered */
+  grid-column: span 2;
+}
+
+/* Project Card Styling */
+.project {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Project Title Styling */
+.project h3 {
+  font-size: 1.8rem;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+/* Project Description Styling */
+.project p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Link Styling */
+.project a {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project a:hover {
+  color: #0056b3;
+}
+
+/* Hover effect for project cards */
+.project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 
 /* Contact Section */
 #contact {
  /* Basic styling for the contact section */
 #contact {
   padding: 20px;
- background-image: url(https://mobilesolutions.pt/wp-content/uploads/2016/02/Silver-Blur-Background-Wallpaper.jpg);
   margin: 20px 0;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -254,6 +262,7 @@ h1 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
+  width: 70%;
  
 }
 
@@ -268,11 +277,11 @@ label {
   font-size: 1.1rem;
   margin-bottom: 5px;
   text-align: left;
-  width: 100%;
+  width: 70%;
 }
 
 input, textarea {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -294,7 +303,7 @@ button {
   font-size: 1.1rem;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%;
+  width: 70%;
   transition: background-color 0.3s ease;
 }
 
@@ -327,18 +336,23 @@ button:hover {
   }
 }
 
-
 /* Footer Section */
 footer {
     background: #fff;
     color: #333;
     padding: 40px 20px;
   }
+  footer-list{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
   
   footer .footer-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: column;
   }
   
   .footer-section {
@@ -351,16 +365,16 @@ footer {
     margin-bottom: 15px;
   }
   
-  .footer-section ul {
+  .footer-section {
     list-style: none;
   }
   
-  .footer-section ul li {
+  .footer-section {
     font-size: 1rem;
     margin-bottom: 10px;
   }
   
-  .footer-section ul li i {
+  .footer-section {
     margin-right: 10px;
   }
 
@@ -403,3 +417,4 @@ footer {
     }
   }
   
+}
