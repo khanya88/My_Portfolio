@@ -1,4 +1,4 @@
-Here's a `README.md` file that describes your project. This will provide relevant information to anyone visiting your GitHub repository, and it can serve as a guide for the project:
+Here's a `README.md` file that describes my project. This will provide relevant information to anyone visiting my GitHub repository, and it can serve as a guide for the project:
 
 ---
 
