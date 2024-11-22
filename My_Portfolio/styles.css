@@ -133,7 +133,55 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
+  /* Gallery section styling */
+#gallery {
+  padding: 90px;
+  background-color: #f0f0f0;
+  text-align: center;  /* Center content horizontally */
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;  /* Center slideshow container */
+  display: flex;  /* Use flexbox to center content inside */
+  justify-content: center;  /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+}
+
+.mySlides {
+  display: none; /* Hide all images by default */
+  position: relative;  /* Position images absolutely to overlap */
+}
+
+.mySlides img {
+  width: 395px; /* Make images responsive */
+  max-width: 600px; /* Set a maximum width for images */
+  height: auto;  /* Maintain aspect ratio */
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+  object-fit: cover;  /* Ensure images cover the container without distortion */
+}
+
+/* Navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Active dot */
+.active {
+  background-color: #717171;
+}
   /* Styling for the 'Projects' header */
   #projects h2 {
     font-size: 2.5rem;
