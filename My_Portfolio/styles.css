@@ -249,68 +249,47 @@ background-color: #717171;
 
 
 /* Contact Section */
-#contact {
- /* Basic styling for the contact section */
-#contact {
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#contact h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  width: 70%;
- 
-}
-
-/* Styling for form elements */
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-label {
-  font-size: 1.1rem;
-  margin-bottom: 5px;
-  text-align: left;
-  width: 70%;
-}
-
-input, textarea {
-  width: 70%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-  transition: border 0.3s ease;
-}
-
-input:focus, textarea:focus {
-  border: 1px solid #4CAF50;
-  outline: none;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  font-size: 1.1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 70%;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .contact-form {
+            max-width: 350px;
+            margin: 30px auto;
+            background: #b1aeae;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #28a745;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #218838;
+        }
 #confirmation-message {
   margin-top: 20px;
   background-color: #3e14e4;
