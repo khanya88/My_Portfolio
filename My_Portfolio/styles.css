@@ -249,12 +249,6 @@ background-color: #717171;
 
 
 /* Contact Section */
-body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-        }
         .contact-form {
             max-width: 350px;
             margin: 30px auto;
