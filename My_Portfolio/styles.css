@@ -341,7 +341,7 @@ background-color: #717171;
    /* Footer Section */
  footer {
      background: #2a2a2a; /* Dark gray background for footer */
-     color: #fff; /* White text color */
+     color: #333; /* White text color */
      padding: 40px 20px;
      width: 70%;
  }
