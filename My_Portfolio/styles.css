@@ -246,7 +246,57 @@ background-color: #717171;
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
+.certificates {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .certificates h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .certificates-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .certificate {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    max-width: 100%;
+  }
+  
+  .certificate-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .certificate-title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .certificate-institution {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .certificate-date {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  
 
 /* Contact Section */
 #contact {
